@@ -48,7 +48,8 @@ the canonical, human-authored game, please go to the upstream project above.
 ## Status
 
 Playable and verified on real Wii U hardware — the game behaves identically to
-the PC original:
+the PC original. See [`CHANGELOG.md`](CHANGELOG.md) for the full porting history
+and [`wiiu/README.md`](wiiu/README.md) for the technical details.
 
 - Full mission and training campaigns, terrain, Blupi AI, sound effects and
   in-game music
