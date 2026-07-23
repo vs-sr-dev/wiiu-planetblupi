@@ -1,0 +1,21 @@
+# Store all text with LF and check it out as LF everywhere. The Wii U build
+# runs inside a Linux Docker container reading these files from the host, so
+# CRLF (e.g. from a clone on Windows) could break the shell scripts.
+* text=auto eol=lf
+
+# Force binary handling for game assets so line endings are never touched.
+*.png  binary
+*.bmp  binary
+*.ico  binary
+*.icns binary
+*.wav  binary
+*.ogg  binary
+*.mid  binary
+*.avi  binary
+*.mkv  binary
+*.blp  binary
+*.ttf  binary
+*.otf  binary
+*.mo   binary
+*.gz   binary
+*.zip  binary
